@@ -1,3 +1,5 @@
+Repositório usado para o curso [Node JS API Development for Beginners](https://www.udemy.com/course/node-js-api-tutorial/learn/lecture/13683864#overview)
+
 # Try Out Development Containers: Node.js
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-node)
