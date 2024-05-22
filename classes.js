@@ -4,3 +4,4 @@ var Stark = /** @class */ (function () {
     return Stark;
 }());
 var ned = new Stark();
+ned.saying = 'winter is coming';
