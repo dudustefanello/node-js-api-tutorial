@@ -14,12 +14,15 @@
 const fs = require('fs')
 const fileName = 'target.txt'
 
-// fs.readFile(fileName, (err, data) => {
-//     if (err) console.log(err)
-//     console.log(data.toString())
-// })
-// console.log('assync, non blocking. This code runs first')
+const errHandler = err => console.error(err)
+const dataHandler = data => console.log(data.toString())
 
-const data = fs.readFileSync(fileName)
-console.log(data.toString())
-console.log('sync, blocking. This code runs last')
+fs.readFile(fileName, (err, data) => {
+    if (err) errHandler(err)
+    dataHandler(data)
+})
+console.log('async, non blocking. This code runs first')
+
+// const data = fs.readFileSync(fileName)
+// console.log(data.toString())
+// console.log('sync, blocking. This code runs last')
