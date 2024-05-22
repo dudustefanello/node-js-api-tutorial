@@ -13,7 +13,10 @@ const morgan = require('morgan');
 const PORT = 3000;
 const HOST = '0.0.0.0';
 
-const myOwnMid = () => console.log('middleware applied')
+const myOwnMid = (req, res, next) => {
+	console.log('middleware applied')
+	next()
+}
 
 // App
 const app = express();
