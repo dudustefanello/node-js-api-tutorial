@@ -1,6 +1,11 @@
 class Stark {
-    name: string
+    name: string = "Brandon"
+    static castle: string = 'Winterfell'
     saying: string   
+
+    constructor () {
+        this.saying = 'Winterfell!'
+    }
 }
 
 var ned: Stark = new Stark()
