@@ -1,17 +1,22 @@
-class Stark {
-    name: string = "Brandon"
-    static castle: string = 'Winterfell'
-    saying: string   
-
-    constructor () {
-        this.saying = 'Winterfell!'
+class Person {
+    name: string
+    
+    constructor (name: string) {
+        this.name = name
     }
 
-    hello(person: string) {
-        console.log('hello, ' + person)
+    dance () {
+        console.log(this.name + ' is dancing')
     }
 }
+var edu = new Person('Eduardo')
+edu.dance()
 
-var ned: Stark = new Stark()
-ned.saying = 'winter is coming'
-ned.hello('Eduardo')
+class AwesomePerson extends Person {
+    dance () {
+        super.dance()
+        console.log('SO AWESOME!')
+    }    
+}
+var jose = new AwesomePerson('José')
+jose.dance()
