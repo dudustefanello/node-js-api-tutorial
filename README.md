@@ -1,4 +1,7 @@
-Repositório usado para o curso [Node JS API Development for Beginners](https://www.udemy.com/course/node-js-api-tutorial/learn/lecture/13683864#overview)
+Repositório usado para os cursos:
+
+1. [Node JS API Development for Beginners](https://www.udemy.com/course/node-js-api-tutorial/learn/lecture/13683864#overview)
+2. [Introduction to TypeScript](https://www.udemy.com/course/typescript/learn/lecture/2709216#overview)
 
 # Try Out Development Containers: Node.js
 
