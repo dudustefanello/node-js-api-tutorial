@@ -13,10 +13,13 @@ const morgan = require('morgan');
 const PORT = 3000;
 const HOST = '0.0.0.0';
 
+const myOwnMid = () => console.log('middleware applied')
+
 // App
 const app = express();
 
 app.use(morgan('dev'))
+app.use(myOwnMid)
 
 app.get('/', getPosts)
 
