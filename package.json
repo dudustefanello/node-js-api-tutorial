@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-ts": "^6.0.0-beta.22",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0",
     "typescript": "^5.4.5"
